@@ -1,5 +1,5 @@
 # HashingAPI
-Node.js API using Express that accepts a file upload and returns its SHA256 hash as a JSON object
+Node.js API using Express that accepts a file (request) and returns its SHA256 hash as a JSON object (response).
 
 This API sets up an Express server with a single POST endpoint at `/hash`. When a file is uploaded to this endpoint, it calculates the SHA256 hash of the file and returns it as a JSON object.
 
