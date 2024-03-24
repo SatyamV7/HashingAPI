@@ -47,7 +47,7 @@ Alternatively, you can create a form in HTML and use JavaScript to send the requ
 <!DOCTYPE html>
 <html>
 <head>
-    <title>File Upload</title>
+    <title>File to SHA256</title>
 </head>
 <body>
     <input type="file" id="fileInput">
