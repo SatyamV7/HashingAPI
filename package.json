@@ -4,6 +4,7 @@
   "description": "NodeJS API which returns hash of file ",
   "main": "index.js",
   "scripts": {
+    "test": "npm run start",
     "start": "node index.js"
   },
   "repository": {
