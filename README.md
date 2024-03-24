@@ -4,6 +4,35 @@ Node.js API using Express that accepts a file upload and returns its SHA256 hash
 This API sets up an Express server with a single POST endpoint at `/hash`. When a file is uploaded to this endpoint, it calculates the SHA256 hash of the file and returns it as a JSON object.
 
 ## Usage
+To start the API on your local machine, follow these steps:
+
+1. Clone the repository by following command:
+```
+git clone https://github.com/SatyamV7/HashingAPI.git
+```
+
+3. Make sure you have Node.js and npm installed on your machine. You can download and install them from the official Node.js website if you haven't already.
+
+4. Open a terminal or command prompt, navigate to the directory where you cloned the repository, and run the following command to install the necessary dependencies:
+
+```
+npm install express multer crypto
+```
+
+4. Once the dependencies are installed, you can start the API by running the following command in the terminal:
+
+```
+npm start
+```
+
+5. You should see a message indicating that the server is running on port 3000:
+
+```
+Server is running on port 3000
+```
+
+Now, the API is running on your local machine, and you can send requests to it as needed.
+
 You can send a request to this API using various methods. One common way is to use a tool like cURL or Postman. Here's how to do it with cURL:
 
 ```bash
